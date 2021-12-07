@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Almaty Hiking - Mountains</title>
+	<link rel="icon" href="static/main/img/Fevicon.png" type="image/png">
+
+  <link rel="stylesheet" href="static/main/vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="static/main/vendors/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="static/main/vendors/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="static/main/vendors/linericon/style.css">
+  <link rel="stylesheet" href="static/main/vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="static/main/vendors/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="static/main/css/magnific-popup.css">
+  <link rel="stylesheet" href="static/main/vendors/flat-icon/font/flaticon.css">
+  <link rel="stylesheet" href="static/main/vendors/nice-select/nice-select.css">
+
+  <link rel="stylesheet" href="static/main/css/style.css">
+</head>
+<body>
+
+  <!--================ Header Menu Area start =================-->
+  <header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container box_1620">
+          <a class="navbar-brand logo_h" href="index"><img src="static/main/img/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav justify-content-end">
+              <li class="nav-item"><a class="nav-link" href="index">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about">About</a></li>
+              <li class="nav-item active"><a class="nav-link" href="mountains">Mountains</a>
+              <li class="nav-item submenu dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sport Shops</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="nav-link" href="shops">All Shops</a>
+                  <li class="nav-item"><a class="nav-link" href="shop-sportmaster">Sportmaster</a>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-right text-center text-lg-right py-4 py-lg-0">
+              <a class="button" href="#">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--================Header Menu Area =================-->
+
+
+
+  <!--================Hero Banner SM Area Start =================-->
+  <section class="hero-banner-sm magic-ball magic-ball-banner" id="parallax-1" data-anchor-target="#parallax-1" data-300-top="background-position: 0px -80px" data-top-bottom="background-position: 0 100px">
+    <div class="container">
+      <div class="hero-banner-sm-content">
+        <h1 style="color: #2a2596;">Mountains</h1>
+        <p style="color: white;">Look for a route to a specific place in the mountains, for example, Furmanov Peak, Three Brothers, etc.
+        <br>Check the status of the routes to know how safe the road will be and how best to prepare.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!--================Hero Banner SM Area End =================-->
+
+
+<!--================Search Package section Start =================-->
+  <section class="section-margin">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-xl-5 align-self-center mb-5 mb-lg-0">
+          <div class="search-content">
+            <h2>Search Route</h2>
+            <p>Find the specific route you want</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-xl-6 offset-xl-1">
+          <div class="search-wrapper">
+            <h3>Search Route</h3>
+
+            <form class="search-form" action="#">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Name of the peak, mountains, etc.">
+                  <div class="input-group-append">
+                    <span class="input-group-text"><i class="ti-search"></i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <select name="category" id="category">
+                  <option value="disabled" disabled selected>Status</option>
+                  <option value="Green">Green</option>
+                  <option value="Yellow">Yellow</option>
+                  <option value="Red">Red</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <select name="tourDucation" id="tourDuration">
+                  <option value="disabled" disabled selected>Height(m)</option>
+                  <option value="1000">+1000m</option>
+                  <option value="2000">+2000m</option>
+                  <option value="3000">+3000m</option>
+                  <option value="4000">+4000m</option>
+                  <option value="5000">+5000m</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <button class="button border-0 mt-3" type="submit">Search</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <br><br>
+
+      <div class="d-none d-sm-block mb-5 pb-4">
+        <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d93090.29887224153!2d76.85317564411963!3d43.18700343817593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x38836e7d16c5cbab%3A0x3d44668fad986d76!2z0JDQu9C80LDRgtGL!3m2!1d43.2220146!2d76.8512485!4m5!1s0x388364b66da755f1%3A0x102e93b7fc942f7!2z0JrQvtC6LdCW0LDQudC70Y_Rgywg0JDQu9C80LDRgtGL!3m2!1d43.1427215!2d77.0037925!5e0!3m2!1sru!2skz!4v1638886047847!5m2!1sru!2skz" width="1100" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+        <script>
+          function initMap() {
+            var uluru = {lat: -25.363, lng: 131.044};
+            var grayStyles = [
+              {
+                featureType: "all",
+                stylers: [
+                  { saturation: -90 },
+                  { lightness: 50 }
+                ]
+              },
+              {elementType: 'labels.text.fill', stylers: [{color: '#A3A3A3'}]}
+            ];
+            var map = new google.maps.Map(document.getElementById('map'), {
+              center: {lat: -31.197, lng: 150.744},
+              zoom: 9,
+              styles: grayStyles,
+              scrollwheel:  false
+            });
+          }
+
+        </script>
+
+
+
+
+      </div>
+    </div>
+  </section>
+  <!--================Search Package section End =================-->
+
+
+  <!--================Mountain section Start =================-->
+  <section class="section-margin pb-xl-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="mountain-card">
+            <img class="card-img rounded-0" src="static/main/img/home/mountain1.png" alt="">
+            <div class="mountain-card-overlay">
+              <div class="media">
+                <div class="media-body">
+                  <h4>Furmanov Peak</h4>
+                  <small>Status:</small><small style="color:yellow;"> Yellow</small><br>
+                  <small>2,985m</small>
+                  <p>The local area is popular for hiking among beginners and seasoned mountain walkers.</p>
+                </div>
+                <div class="media">
+                  <h4 class="text-primary"><a href="#">More</a></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+              <div class="mountain-content">
+                <h2>We offer routes to different places in the mountains</h2>
+                <p>Make sure your mountain vacation is safe</p><br>
+              </div>
+            </div>
+          </div>
+
+          <div class="mountain-card">
+            <img class="card-img rounded-0" src="static/main/img/home/mountain2.png" alt="">
+            <div class="mountain-card-overlay">
+              <div class="media">
+                <div class="media-body">
+                  <h4>Rocks Three Brothers</h4>
+                  <small>Status:</small><small style="color:red;"> Red</small><br>
+                  <small>2,860m</small>
+                  <p>These are several outliers on the Kumbel ridge. Qum in Kazakh means sand, belly - back, ridge. Those. a sandy ridge or ridge not covered with eternal snow.</p>
+                </div>
+                <div class="media">
+                  <h4 class="text-primary"><a href="#">More</a></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-7">
+          <div class="mountain-card">
+            <img class="card-img rounded-0" src="static/main/img/home/mountain3.png" alt="">
+            <div class="mountain-card-overlay">
+              <div class="media">
+                <div class="media-body">
+                  <h4>Kok-Zhaylyau</h4>
+                  <small>Status:</small><small style="color:green;"> Green</small><br>
+                  <small>2,251m</small>
+                  <p>One of the most popular routes among Almaty residents. Every weekend from 100 to 400 people walk along this trail, regardless of the season, people walk alone, as a couple, with friends, with family, with small children.</p>
+                </div>
+                <div class="media">
+                  <h4 class="text-primary"><a href="#">More</a></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-5">
+          <div class="mountain-card">
+            <img class="card-img rounded-0" src="static/main/img/home/mountain4.png" alt="">
+            <div class="mountain-card-overlay">
+              <div class="media">
+                <div class="media-body">
+                  <h4>Kumbel Peak</h4>
+                  <small>Status:</small><small style="color:red;"> Red</small><br>
+                  <small>3,230m</small>
+                  <p>The Kumbel peak, clearly visible from any point in Almaty, is one of the heights of the ridge of the same name.</p>
+                </div>
+                <div class="media">
+                  <h4 class="text-primary"><a href="#">More</a></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================Mountain section End =================-->
+
+  <!-- ================ start footer Area ================= -->
+  <footer class="footer-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3  col-md-6 col-sm-6">
+          <div class="single-footer-widget">
+            <h6>About Us</h6>
+            <p>
+              Almaty Hiking is a mountain route viewer that makes hiking in the mountains easier and safer. Our clients are everyone who wants to visit the mountains without having to worry about their safety.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="single-footer-widget">
+            <h6>Navigation Links</h6>
+            <div class="row">
+              <div class="col">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Mountains</a></li>
+                  <li><a href="#">Sport shops</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul>
+                  <li><a href="#">Team</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="row align-items-center">
+          <p class="col-lg-8 col-sm-12 footer-text m-0 text-center text-lg-left">
+          Copyright &copy;2021 All rights reserved | Almaty Hiking <i class="fa fa-mountain" aria-hidden="true"></i></p>
+          <div class="col-lg-4 col-sm-12 footer-social text-center text-lg-right">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-vk"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ================ End footer Area ================= -->
+
+
+  <script src="static/main/vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="static/main/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="static/main/vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="static/main/vendors/Magnific-Popup/jquery.magnific-popup.min.js"></script>
+  <script src="static/main/vendors/nice-select/jquery.nice-select.min.js"></script>
+  <script src="static/main/js/jquery.ajaxchimp.min.js"></script>
+  <script src="static/main/js/skrollr.min.js"></script>
+  <script src="static/main/js/jquery.magnific-popup.min.js"></script>
+  <script src="static/main/js/main.js"></script>
+</body>
+</html>
